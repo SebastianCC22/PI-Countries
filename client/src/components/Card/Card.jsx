@@ -12,22 +12,22 @@ import styles from "./Card.module.css";
 
 const CountryCard = ({ imgflag, name, continent, population, id }) => {
 
-  const [showId, setId] = useState("off")
+  // const [showId, setId] = useState("off")
 
-  function handleId () {
-    if (showId === "off") {
-      setId("on")
-      return showId;
-    }else if(showId === "on") {
-      setId("off")
-      return showId
-    }
-  }
+  // function handleId () {
+  //   if (showId === "off") {
+  //     setId("on")
+  //     return showId;
+  //   }else if(showId === "on") {
+  //     setId("off")
+  //     return showId
+  //   }
+  // }
 
   return (
 
     <div className={styles.cardBox}>
-    <button onClick={handleId}>id</button>
+    {/* <button onClick={handleId}>id</button> */}
     
     <Link to={`/home/${id}`} >
        
@@ -37,7 +37,7 @@ const CountryCard = ({ imgflag, name, continent, population, id }) => {
       <div className={styles.dataContent}>
      
         {/* <label className={styles.idButton}>Id: {id}</label> */}
-        {showId === "on" ? <label className={styles.idButton}>Id: {id}</label> : "" }
+        {/* {showId === "on" ? <label className={styles.idButton}>Id: {id}</label> : "" } */}
           
           <label>{name}</label>
         <div className={styles.cardInfo}>
