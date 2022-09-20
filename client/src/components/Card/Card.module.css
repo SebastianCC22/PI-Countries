@@ -1,0 +1,70 @@
+.cardBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   /* border: 1px solid black; */
+    flex-shrink: 0;
+    width: 30%;
+    height: 24%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.3) 0%,rgba(0, 116, 211, 0.568) 100%);
+    
+}
+
+.imgFlagBox{
+    display: flex;
+    /* border: 1px solid black; */
+    flex-shrink: 0;
+    width: 40%;
+    height: 55%;
+padding-left: 7px;
+}
+
+.imgFlag{
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.dataContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+     width: 57%;
+     height: 100%; 
+     color: blanchedalmond;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+.dataContent label{
+    font-size: 15px;
+}
+
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 100%;
+    height: 65%;
+}
+
+.cardInfo label{
+    font-size: 15px;
+}
+
+.off{
+    display: none;
+}
+
+.on{
+    display:flex;
+}
